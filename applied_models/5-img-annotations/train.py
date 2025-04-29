@@ -42,9 +42,9 @@ def main(args):
     encoder = EncoderCNN(args.embed_size).to(device)
     decoder = DecoderRNN(args.embed_size, args.hidden_size, len(vocab), args.num_layers).to(device)
 
-    # REMOVE LATER: Continue training
-    encoder.load_state_dict(torch.load('models/encoder-5-2000.ckpt'))
-    decoder.load_state_dict(torch.load('models/decoder-5-2000.ckpt'))
+    # Uncomment to preload model (example)
+    # encoder.load_state_dict(torch.load('models/encoder-5-2000.ckpt'))
+    # decoder.load_state_dict(torch.load('models/decoder-5-2000.ckpt'))
 
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()

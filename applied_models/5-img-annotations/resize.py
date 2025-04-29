@@ -15,11 +15,6 @@ def resize_images(image_dir, output_dir, size):
     images = os.listdir(image_dir)
     num_images = len(images)
     for i, image in enumerate(images):
-        if 10000 < i <= 70000:
-            continue
-        #if i >= 70000:
-        #    print('resized')
-        #    break
         with open(os.path.join(image_dir, image), 'r+b') as f:
             with Image.open(f) as img:
                 img = resize_image(img, size)
