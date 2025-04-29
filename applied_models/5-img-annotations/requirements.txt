@@ -1,0 +1,6 @@
+matplotlib
+cython
+nltk
+numpy
+Pillow
+argparse
