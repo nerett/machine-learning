@@ -1,7 +1,7 @@
 # Applied models of machine learning
 
 ## Tasks
-The tasks here below were completed in a group of 4 students and submitted together. Training/evaluation statistics (tensorbord) can be found in per-task directories
+The tasks below were completed in a group of 4 students and submitted together. Training/evaluation statistics (tensorboard) can be found in per-task directories
 
 1. **Convolutional neural network** ([alexxRT](https://github.com/alexxRT))
 2. **Long short-term memory memory** ([alexxRT](https://github.com/alexxRT))
