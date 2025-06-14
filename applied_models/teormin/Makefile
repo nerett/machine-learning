@@ -1,5 +1,5 @@
 FILENAME = teormin
-TMPDIR = /tmp/$(LABNUM)
+TMPDIR = /tmp/$(FILENAME)
 
 all:
 	mkdir -p $(TMPDIR)
